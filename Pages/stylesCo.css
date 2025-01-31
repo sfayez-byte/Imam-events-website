@@ -160,6 +160,20 @@ body {
     font-size: 16px;
     width: 100%;
 }
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    max-width: 500px;
+}
 
 .form-group button:hover {
     background-color: #1b2d4f;
@@ -225,6 +239,16 @@ body {
 
 .form-group button:hover {
     background-color: #1b2d4f;
+}
+.event-image, .students-image {
+    transition: transform 0.3s ease;
+}
+
+.event-image:hover, .students-image:hover {
+    transform: scale(1.05);
+}
+.read-more {
+    transition: background-color 0.3s ease;
 }
 
 .message {

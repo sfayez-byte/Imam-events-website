@@ -119,8 +119,39 @@ The following table provides a comparison of the main technologies used in the p
 | **JavaScript** | Frontend interactions and API calls        | `script.js` |
 | **Git**        | Version control for project management    | `.gitignore` |
 | **dotenv**     | Environment variable management            | `.env` |
+--
+#### **Future Work 🚀**  
+To enhance the **IMAM-EVENTS-WEBSITE**, several future improvements and features can be implemented:
 
-This table summarizes the key technologies and their roles in the project. Let me know if you need additional details! 🚀
+1️⃣ **Personalized Student Dashboards**  
+   - Introduce user accounts where students can:  
+     - Track their **enrolled courses** 📚  
+     - View **upcoming events** 📅  
+     - Monitor **volunteer hours** ⏳  
+
+2️⃣ **AI-Powered Event Recommendations**  
+   - Utilize **machine learning algorithms** to suggest:  
+     - **Relevant courses** 🎓  
+     - **Camps and hackathons** 💡  
+     - **Workshops based on students' interests** 🤖  
+
+3️⃣ **Expanded Partnership Programs**  
+   - Collaborate with **industry leaders** and **organizations** to provide:  
+     - **Exclusive internships** 🏢  
+     - **Mentorship programs** 🎯  
+     - **Professional certifications** 📜  
+
+--
+#### **Resources & References**  
+Here are some useful resources that were referenced during the development of the **IMAM-EVENTS-WEBSITE**:
+
+📌 **Courses & Documentation**  
+- [SATR: Backend Development](https://satr.codes/course/CATspNvVjT/view) - Covers essential backend development concepts.  
+- [SATR: Frontend Development](https://satr.codes/course/hNUwyBUKmF/view) - A comprehensive guide on frontend technologies.
+
+📌 **Video Tutorials**  
+- 🎥 [YouTube: Full-Stack Web Development Guide](https://www.youtube.com/watch?v=eX5B-1p2G-E&t=3049s) - A detailed walkthrough of full-stack development.
+
 --
 ## ⚙️ Installation Guide
 1. **Clone the Repository**

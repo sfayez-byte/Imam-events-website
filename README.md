@@ -119,6 +119,7 @@ The following table provides a comparison of the main technologies used in the p
 | **JavaScript** | Frontend interactions and API calls        | `script.js` |
 | **Git**        | Version control for project management    | `.gitignore` |
 | **dotenv**     | Environment variable management            | `.env` |
+
 --
 #### **Future Work 🚀**  
 To enhance the **IMAM-EVENTS-WEBSITE**, several future improvements and features can be implemented:
@@ -140,6 +141,11 @@ To enhance the **IMAM-EVENTS-WEBSITE**, several future improvements and features
      - **Exclusive internships** 🏢  
      - **Mentorship programs** 🎯  
      - **Professional certifications** 📜  
+--
+### **Screenshots 📸**  
+You can find the project’s screenshots at the following link:  
+
+🔗 **[Google Drive - Screenshots](https://drive.google.com/drive/folders/1v6KBP85MhVbT4ip_pRI-V3WymDqIofn0)**  
 
 --
 #### **Resources & References**  

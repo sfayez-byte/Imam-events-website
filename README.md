@@ -42,6 +42,71 @@ This project adheres to strict development standards, including semantic HTML, o
 - **Database**: MongoDB
 - **Version Control**: GitHub for collaboration and project tracking
 
+--
+Sure! Here's a clear description followed by the folder structure:
+
+---
+
+#### **Project Folder Structure - IMAM-EVENTS-WEBSITE**
+
+This is the directory structure for the **IMAM-EVENTS-WEBSITE** project. It is a web application that includes frontend and backend components, with organized files for configuration, routes, controllers, models, middleware, and public assets. 
+
+- The **`api`** folder contains backend-related code, including configuration settings, database connections, controllers, middleware, models, and API routes.
+- The **`Pages`** folder contains HTML pages for different sections of the website.
+- The **`public/css`** folder stores styling files.
+- The **`Users`** folder contains user authentication pages.
+- The project is managed with **Node.js**, as indicated by the presence of `package.json` and `server.js`.
+
+---
+
+```
+📦 IMAM-EVENTS-WEBSITE
+├── 📂 api
+│   ├── 📂 config
+│   │   ├── allowedOrigin.js
+│   │   ├── corsOptions.js
+│   │   ├── dbConn.js
+│   ├── 📂 controllers
+│   │   ├── authController.js
+│   │   ├── usersController.js
+│   ├── 📂 middleware
+│   │   ├── verifyJWT.js
+│   ├── 📂 models
+│   │   ├── Registration.js
+│   │   ├── User.js
+│   ├── 📂 node_modules
+│   ├── 📂 Pages
+│   │   ├── BootCamps.html
+│   │   ├── CollegePortal.html
+│   │   ├── courses.html
+│   │   ├── Hackthon.html
+│   │   ├── image.png
+│   │   ├── p1.jpeg
+│   │   ├── p2.jpeg
+│   │   ├── registration_form.html
+│   │   ├── script.js
+│   │   ├── stylesCo.css
+│   │   ├── Volenteer.html
+│   ├── 📂 public
+│   │   ├── 📂 css
+│   │   │   ├── Admin.css
+│   ├── 📂 routes
+│   │   ├── authRoutes.js
+│   │   ├── registrationRoutes.js
+│   │   ├── root.js
+│   │   ├── userRoutes.js
+├── 📂 Users
+│   ├── 404.html
+│   ├── logIn.html
+│   ├── signUp.html
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── server.js
+```
+
+--
 ## ⚙️ Installation Guide
 1. **Clone the Repository**
 ```sh

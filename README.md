@@ -105,7 +105,22 @@ This is the directory structure for the **IMAM-EVENTS-WEBSITE** project. It is a
 ├── package.json
 ├── server.js
 ```
+#### **Technologies Used in IMAM-EVENTS-WEBSITE**
+The following table provides a comparison of the main technologies used in the project:
 
+| **Technology**  | **Purpose**                                  | **Files / Usage** |
+|----------------|--------------------------------------------|------------------|
+| **Node.js**    | Backend runtime environment                | `server.js` |
+| **Express.js** | Web framework for handling API requests    | `routes/*.js`, `server.js` |
+| **MongoDB**    | Database for storing user and event data   | `config/dbConn.js`, `models/*.js` |
+| **JWT (JSON Web Token)** | Authentication and authorization | `middleware/verifyJWT.js` |
+| **HTML**       | Structure of the web pages                 | `Pages/*.html`, `Users/*.html` |
+| **CSS**        | Styling the frontend                       | `public/css/Admin.css`, `stylesCo.css` |
+| **JavaScript** | Frontend interactions and API calls        | `script.js` |
+| **Git**        | Version control for project management    | `.gitignore` |
+| **dotenv**     | Environment variable management            | `.env` |
+
+This table summarizes the key technologies and their roles in the project. Let me know if you need additional details! 🚀
 --
 ## ⚙️ Installation Guide
 1. **Clone the Repository**
